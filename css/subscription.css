@@ -1,0 +1,133 @@
+html {
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+.grey {
+  color: #808080;
+}
+
+@media (max-width: 600px), (max-width: 769px) {
+  .hidden-mob {
+    display: none;
+  }
+
+  .display-mob {
+    display: block;
+  }
+
+  .order-type {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Start Nav */
+header nav {
+  display: flex;
+}
+
+header nav .right {
+  display: flex;
+  justify-content: space-between;
+  width: 460px;
+}
+
+header nav form {
+  position: relative;
+  border-radius: 10px;
+}
+
+nav form .search {
+  position: absolute;
+  right: 25px;
+  top: 12px;
+}
+
+/* End Nav */
+/* Start Header */
+header h3 {
+  font-size: 24px;
+  font-weight: 600;
+  border-bottom: 1px solid #808080;
+  padding: 10px;
+}
+
+/* End Header */
+
+/* Start main */
+.main .cart {
+  background-color: #f8f8f8;
+}
+
+/* End main */
+
+.border-cust {
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg%27%3e%3crect width='100%25' height='100%25' fill='none' rx='20' ry='20' stroke='%23DC8317FF' stroke-width='6' stroke-dasharray='8%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+  border-radius: 10px;
+}
+
+.second-b1 {
+  width: 181px;
+  background-color: #fc8019;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  /* margin-left: 30px; */
+}
+
+.second-b2 {
+  width: 181px;
+  color: #202020;
+  text-align: center;
+  padding: 15px;
+  /* margin-left: 30px; */
+  font-weight: 500;
+}
+
+.active-b {
+  border-bottom: 1px solid #fc8019;
+  text-align: center;
+  width: 100px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+.notActiveP {
+  border-bottom: 1px solid #808080;
+  text-align: center;
+  width: 100px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+/* footer */
+
+footer {
+  background-color: #fc8019;
+  height: 25vh;
+  padding-bottom: 10px;
+}
+
+.footerNav {
+  color: whitesmoke;
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.footerNav:hover {
+  color: #202020;
+}
+
+.logoFooter {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.contactFooter {
+  line-height: 2rem;
+  font-size: 0.8rem;
+}

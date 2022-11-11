@@ -1,0 +1,146 @@
+html {
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 769px) {
+  .hidden-mob {
+    display: none;
+  }
+
+  .main .main-ltext {
+    align-items: stretch;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .display-mob {
+    display: block;
+  }
+}
+
+/* Start Nav */
+header nav {
+  display: flex;
+}
+
+header nav .right {
+  display: flex;
+  justify-content: space-between;
+  width: 460px;
+}
+
+header nav form {
+  position: relative;
+  border-radius: 10px;
+}
+
+nav form .search {
+  position: absolute;
+  right: 25px;
+  top: 12px;
+}
+
+/* End Nav */
+
+/* Start Header Component */
+.line {
+  border-right: 1px white solid;
+}
+
+.text-color {
+  font-size: 24px;
+  color: #fc8019;
+}
+
+.border-dashed {
+  margin: 30px;
+  padding: 1px;
+  top: 0px;
+  right: 0px;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg%27%3e%3crect width='100%25' height='100%25' fill='none' rx='20' ry='20' stroke='%23DC8317FF' stroke-width='6' stroke-dasharray='8%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+  border-radius: 20px;
+}
+
+.favorite button {
+  top: 6px;
+  right: 145px;
+}
+
+.favorite {
+  margin-top: -20px;
+}
+
+.favorite .fav-btn {
+  background-color: white;
+  margin-left: 10px;
+  padding: 0px 15px;
+}
+
+/* End Header Component */
+
+/* Start Main */
+.main .orange {
+  color: #fc8019;
+}
+
+.main-ltext {
+  height: 400px;
+  margin-top: 20px;
+  border-right: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.main .main-text {
+  padding: 20px;
+}
+
+.main-btn {
+  font-weight: 500;
+  background-color: white;
+  color: #1ac84b;
+  width: 99px;
+  margin-top: -20px;
+}
+
+.rbutton {
+  width: 100%;
+  padding: 5px;
+  font-size: 24px;
+  margin: 10px 0px 50px;
+  background-color: #fc8019;
+}
+
+/* End Main */
+
+/* footer */
+
+footer {
+  background-color: #fc8019;
+  height: 25vh;
+  padding-bottom: 10px;
+}
+
+.footerNav {
+  color: whitesmoke;
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.footerNav:hover {
+  color: #202020;
+}
+
+.logoFooter {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.contactFooter {
+  line-height: 2rem;
+  font-size: 0.8rem;
+}

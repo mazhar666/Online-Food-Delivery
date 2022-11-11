@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Items</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <!-- Poppins Font -->
+
+  <!-- BootStrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+
+  <link rel="stylesheet" href="css/items.css" />
+</head>
+
+<body>
+  <!-- Start Header -->
+  <!-- Start Nav -->
+  <header>
+    <nav class="navbar navbar-expand-md bg-opacity-0" style="height: 80px">
+      <div class="container">
+        <a class="navbar-brand fw-bold">
+          <img src="images/Logo.png" alt="logo" />
+          FitMe
+        </a>
+        <form class="d-flex" role="search">
+          <div class="position-relative">
+            <input class="form-control me-2 rounded shadow-sm hidden-mob" type="search"
+              placeholder="Enter item or restaurant you are looking for" style="width: 380px" aria-label="Search" />
+            <button type="button" class="navbar-toggler display-mob border-0">
+              <i class="fa-solid fa-magnifying-glass search"></i>
+            </button>
+          </div>
+          <div class="p-2 text-dark mx-2">
+            <a href="" class="text-decoration-none text-dark">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </a>
+          </div>
+          <button class="btn btn-outline-dark px-2" type="submit">
+            sign in
+          </button>
+        </form>
+      </div>
+    </nav>
+    <!-- End Nav -->
+    <!-- Start Header Component -->
+    <div class="bg-dark">
+      <div class="container text-white">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-4">
+            <img class="py-3  img-fluid" src="images/item.png" alt="food picture" />
+          </div>
+          <div class="col-md-4">
+            <h4 class="halawa pt-5">LunchBox - Meals and Thalis</h4>
+            <p class="mt-4 ms-4 ">North Indian, Punjabi</p>
+            <br />
+            <div class="row position-relative text-center mb-5">
+              <div class="col-md-4 line">
+                <i class="fa-solid fa-star text-warning"></i>
+                <span>4.0</span>
+                <br />
+                <span>100+ ratings</span>
+              </div>
+              <div class="col-md-4 line">
+                <span>30 Mins</span>
+                <br />
+                <span>Delivery Time</span>
+              </div>
+              <div class="col-md-4">
+                <span>₹200</span>
+                <br />
+                <span>Cost for two</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex justify-content-center ">
+            <div class="border-dashed w-75">
+              <div class="p-3">
+                <p class="text-color">Offers</p>
+                <p>
+                  <i class="fa-solid fa-percent" style="color: #fc8019"></i>
+                  50% off up to ₹100 | Use code TRYNEW
+                </p>
+                <p>
+                  <i class="fa-solid fa-percent" style="color: #fc8019"></i>
+                  20% off | Use code PARTY
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="favorite d-flex justify-content-center align-items-center">
+      <form class="" role="search">
+        <div class="position-relative d-flex">
+          <input class="form-control rounded shadow-sm hidden-mob" type="search" placeholder="Search for dish"
+            style="width: 300px" aria-label="Search" />
+          <button type="button" class="position-absolute border-0 bg-white rounded-circle">
+            <i class="fa-solid fa-magnifying-glass search"></i>
+          </button>
+          <button type="button" class="btn shadow fav-btn">
+            <i class="fa-regular fa-star"></i> Favorite
+          </button>
+        </div>
+    </div>
+    <!-- End Header Component -->
+  </header>
+  <!-- End Header -->
+
+  <!-- Start Main Component -->
+  <div class="main">
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-3 main-ltext ">
+          <span class="orange">Recommended</span><br>
+          <span>Breakfast Box</span><br>
+          <span>Lunch Box</span><br>
+          <span>Combo Box</span><br>
+          <span>Biriyani Box</span>
+        </div>
+        <div class="col-md-3 main-text">
+          <p class="fw-bold">Brunch for 2 - Veg (Save upto Rs.45)</p>
+          <p class="fw-bold">₹599</p>
+          <p style="color: #808080;">Brunch: One meal to rule them all! Grab this mega saver combo with your choice of 2
+            veg wraps, Aloo Paratha (2 pcs), chole and Curd lunchbox and 2 choco lava cakes. This is just bliss on a
+            plate!</p>
+        </div>
+        <div class="col-md-3 mt-4">
+          <div class="d-flex align-items-center flex-column">
+            <img src="images/itemP-main.png" alt="">
+            <a href="#" class="btn shadow main-btn">Add +</a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="row">
+            <div class="col-md-9">
+              <h5>Cart</h5>
+              <br>
+              <p style="color: #202020;">from <span style="color: #FC8019;">Lunch box</span></p>
+              <span>Brunch for 2 - Veg</span>
+              <span style="color:#808080;">₹599</span>
+              <br>
+              <br>
+              <p style="color: #202020;">from <span style="color: #FC8019;">Fasso</span></p>
+              <span>Paneer Signature Rice Bowl (Regular)
+              </span>
+              <span style="color:#808080;">₹299</span>
+              <br>
+              <br>
+              <h5 style="font-weight: 500;">Subtotal</h5>
+              <span style="color:#808080;font-size: 14px;">Extra charges may apply</span>
+            </div>
+            <div class="col-md-3">
+              <p>2 items</p>
+              <br><br><br>
+              <p style="word-spacing: 10px;">- 1 +</p>
+              <br><br>
+              <p style="word-spacing: 10px;">- 1 +</p>
+              <br><br><br>
+              <p style="word-spacing: 10px;" class="fw-bold fa-2x">₹799</p>
+            </div>
+            <div class="d-grid col-10  mx-auto">
+              <a href="#" class="btn rbutton shadow">checkout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Main Component -->
+
+  <!-- Start Footer -->
+  <footer class="bottom">
+    <div class="container text-white text-center pt-3">
+      <div class="row flex-mob justify-content-center">
+        <div class="col-md-4">
+          <span class="logoFooter">FitMe</span>
+        </div>
+        <!-- logo -->
+        <div class="col-md-4">
+          <div class="row justify-content-center">
+            <div class="col-md-12` mx-auto">
+              <ul class="d-flex justify-content-between list-unstyled flex-row">
+                <li><a class="footerNav" href="">About us</a></li>
+                <li><a class="footerNav" href="">Delivery</a></li>
+                <li><a class="footerNav" href="">Help & Support</a></li>
+                <li><a class="footerNav" href="">T&C</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- text -->
+          <div class="row justify-content-center">
+            <div class="col-md-12 mx-auto">
+              <ul class="d-flex justify-content-center list-unstyled">
+                <li>
+                  <a class="footerNav" href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="footerNav" href="#">
+                    <i class="fa-brands fa-instagram mx-3"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="footerNav" href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- logos -->
+        </div>
+        <!-- footerNav -->
+        <div class="col-md-4">
+          <span class="contactFooter"> contact: +214512452 </span>
+        </div>
+        <!-- contact -->
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+</body>
+
+</html>

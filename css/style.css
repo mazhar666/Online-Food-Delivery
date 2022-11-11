@@ -1,0 +1,280 @@
+html {
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 600px), (max-width: 769px) {
+  .hidden-mob {
+    display: none;
+  }
+
+  .display-mob {
+    display: block;
+  }
+
+  .fasel-input {
+    margin-bottom: 10px;
+  }
+}
+
+/* Start Header */
+header nav {
+  display: flex;
+}
+
+header nav .right {
+  display: flex;
+  justify-content: space-between;
+  width: 460px;
+}
+
+header nav form {
+  position: relative;
+  border-radius: 10px;
+}
+
+nav form .search {
+  position: absolute;
+  right: 25px;
+  top: 12px;
+}
+
+.slide {
+  height: 86vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide-1 {
+  width: 400px;
+  height: 600px;
+  animation: slide1 4s infinite;
+  animation-delay: 1s;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+@keyframes slide1 {
+  0% {
+    width: 400px;
+    height: 600px;
+  }
+
+  50% {
+    width: 300px;
+    height: 450px;
+    right: 445px;
+  }
+
+  100% {
+    width: 400px;
+    height: 600px;
+  }
+}
+
+.slide-2 {
+  animation: slide2 4s infinite;
+  animation-delay: 1s;
+  position: absolute;
+  top: 10px;
+  left: 400px;
+}
+
+@keyframes slide2 {
+  0% {
+    width: 350px;
+    height: 400px;
+  }
+
+  50% {
+    width: 400px;
+    height: 600px;
+    left: -10px;
+  }
+
+  100% {
+    width: 350px;
+    height: 400px;
+  }
+}
+
+@media (min-width: 1200px), (max-width: 1600px) {
+  .slide-1 {
+    width: 400px;
+    height: 600px;
+    animation: slide1 4s infinite;
+    animation-delay: 1s;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+  }
+
+  @keyframes slide1 {
+    0% {
+      width: 400px;
+      height: 600px;
+    }
+
+    50% {
+      width: 300px;
+      height: 450px;
+      right: 600px;
+    }
+
+    100% {
+      width: 400px;
+      height: 600px;
+    }
+  }
+
+  .slide-2 {
+    animation: slide2 4s infinite;
+    animation-delay: 1s;
+    position: absolute;
+    top: 10px;
+    left: 600px;
+    margin-left: 10px;
+  }
+
+  @keyframes slide2 {
+    0% {
+      width: 350px;
+      height: 400px;
+    }
+
+    50% {
+      width: 400px;
+      height: 600px;
+      left: 0px;
+    }
+
+    100% {
+      width: 350px;
+      height: 400px;
+    }
+  }
+}
+
+.left-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 80px;
+  /* identical to box height */
+  color: #202020;
+}
+
+.special {
+  color: #fc8019;
+}
+
+.banana img {
+  transform: translateY(-30px);
+  animation: y-axis 3s infinite;
+}
+
+@keyframes y-axis {
+  0% {
+    transform: translateY(-30px);
+  }
+
+  50% {
+    transform: translateY(17px);
+  }
+
+  100% {
+    transform: translateY(-30px);
+  }
+}
+
+.apple img {
+  transform: translateX(-27px);
+  animation: x-axis 3s infinite;
+}
+
+@keyframes x-axis {
+  0% {
+    transform: translateX(-27px);
+  }
+
+  50% {
+    transform: translateX(15px);
+  }
+
+  100% {
+    transform: translateX(-27);
+  }
+}
+
+.banana::before,
+.apple::before {
+  content: "";
+  width: 125px;
+  height: 75px;
+  background-color: black;
+  /* background-color: #FFEDD0; */
+  border-radius: 50px;
+}
+
+.input-h {
+  width: 340px;
+  margin-right: 5px;
+  padding-bottom: 10px;
+}
+
+.text-indent {
+  word-spacing: 10px;
+  color: #808080;
+}
+
+/* End Header */
+
+.f-h {
+  height: 60vh;
+}
+
+.fasel {
+  background-color: #fc8019;
+  color: white;
+}
+
+.bck-i {
+  background-color: #fc8019;
+  color: #ffffff80;
+}
+
+.images div img {
+  margin-right: 10px;
+}
+
+/* footer */
+
+footer {
+  background-color: #fc8019;
+  height: 25vh;
+  padding-bottom: 10px;
+}
+
+.footerNav {
+  color: whitesmoke;
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.footerNav:hover {
+  color: #202020;
+}
+
+.logoFooter {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.contactFooter {
+  line-height: 2rem;
+  font-size: 0.8rem;
+}

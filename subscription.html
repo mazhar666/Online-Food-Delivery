@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checkout Screen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <!-- Poppins Font -->
+
+  <!-- BootStrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+
+  <link rel="stylesheet" href="css/subscription.css" />
+</head>
+
+<body>
+  <!-- Start Header -->
+  <!-- Start Nav -->
+  <header>
+    <nav class="navbar navbar-expand-md bg-opacity-0" style="height: 80px">
+      <div class="container">
+        <a class="navbar-brand fw-bold">
+          <img src="images/Logo.png" alt="logo" />
+          FitMe
+        </a>
+        <form class="d-flex" role="search">
+          <div class="position-relative">
+            <input class="form-control me-2 rounded shadow-sm hidden-mob" type="search"
+              placeholder="Enter item or restaurant you are looking for" style="width: 380px" aria-label="Search" />
+            <button type="button" class="navbar-toggler display-mob border-0">
+              <i class="fa-solid fa-magnifying-glass search"></i>
+            </button>
+          </div>
+          <div class="p-2 text-dark mx-2">
+            <a href="" class="text-decoration-none text-dark">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </a>
+          </div>
+          <button class="btn btn-outline-dark px-2" type="submit">
+            sign in
+          </button>
+        </form>
+      </div>
+    </nav>
+    <!-- End Nav -->
+    <div class="container">
+      <h3>Secure Checkout</h3>
+    </div>
+  </header>
+  <!-- End Header -->
+  <section class="main">
+    <div class="container">
+      <div class="row">
+        <!-- The Whole Section -->
+        <div class="d-flex my-4">
+          <i class="fa-solid fa-location-dot" style="color: #FC8019; font-size: 35px;"></i>
+          <p style="font-weight: 600; font-size: 24px;" class="mx-3">
+            Delivery address
+          </p>
+        </div>
+
+        <div class="col-md-9">
+          <!-- First Block -->
+          <div class="row">
+            <div class="col-md-4 mb-3">
+              <div style="background-color: #FC8019; border-radius: 10px; padding: 15px;">
+                <i class="fa-solid fa-location-dot text-white mb-3" style="font-size: 35px;"></i>
+                <p class="text-white">Dno. 12-34-12, XYC Apartments, DOOR Colony, Hyderabad, Telangana</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div style="border-radius: 10px; padding: 15px;" class="border-cust">
+                <i class="fa-solid fa-location-dot text-dark mb-3" style="font-size: 35px;"></i>
+                <p class="text-dark">Dno. 12-34-12, XYC Apartments, DOOR Colony, Hyderabad, Telangana</p>
+              </div>
+            </div>
+            <div class="col-md-4"></div>
+          </div>
+          <!-- End Of First BLock -->
+
+
+          <div class="d-flex mt-5 mb-4">
+            <i class="fa-solid fa-location-dot" style="color: #FC8019; font-size: 35px;"></i>
+            <p style="font-weight: 600; font-size: 24px;" class="mx-3">
+              Type of Order
+            </p>
+          </div>
+          <!-- Second Block -->
+
+
+          <div class="row align-items-center justify-content-evenly order-type mx-auto">
+            <div class="col-md-3 second-b1">
+              <i class="fa-regular fa-calendar"></i> Subscription
+            </div>
+            <div class="col-md-3 border-cust second-b2 my-3">
+              <i class="fa-regular fa-calendar"></i> Schedule Order
+            </div>
+            <div class="col-md-3 border-cust second-b2">
+              <i class="fa-regular fa-calendar"></i> Order Now
+            </div>
+          </div>
+          <!-- End Of Second Block -->
+          <p class="my-5">Type of subscription ?</p>
+          <!-- Third Block -->
+          <div class="row align-items-center justify-content-evenly ">
+            <div class="col-md-4">
+              <div class="d-flex order-type">
+                <div class="">
+                  <p class="active-b">Monthly</p>
+                </div>
+                <div class="">
+                  <p class="notActiveP">Weekly</p>
+                </div>
+                <div class="">
+                  <p class="notActiveP">Custom</p>
+                </div>
+              </div>
+              <p style="font-weight: 500;" class="mt-5 mb-4">What time do you want us to deliver?</p>
+              <div class="d-flex flex-row mb-5">
+                <p class="text-dark notActiveP m-2"><i class="fa-regular fa-calendar"></i> 16:30</p>
+                <p class="active-b m-2" style="color:#FC8019">24 hrs</p>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <!-- What’s the plan? Block -->
+              <div class="row">
+                <div class="col-md-6">
+                  <h6 class="text-black mb-4" style="margin-top:-40px;">What’s the plan?</h6>
+                  <p
+                    style="text-align: center; padding: 15px; color:#FC8019; border-radius:10px; border:1px solid #FC8019">
+                    3-Days/Week
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <p
+                    style="text-align: center; padding: 15px; color:#202020; border-radius:10px; border:1px solid #202020">
+                    5-Days/Week</p>
+                </div>
+              </div>
+              <div class="mt-4">
+                <p style="font-weight:500;">Any Note for us?</p>
+                <input type="text" placeholder="Type you note here" class="text-dark  " style="border-radius: 10px;
+                  padding: 10px 150px 75px 30px;">
+              </div>
+              <!-- What’s the plan? Block -->
+            </div>
+          </div>
+          <!-- End Of Third Block -->
+        </div>
+        <!-- Cart -->
+        <div class="col-md-3 my-4 cart">
+          <!-- Inside Cart Section -->
+          <!-- First Block -->
+          <div class="row">
+            <div class="col-md-9">
+              <h5>Cart</h5>
+              <br>
+              <p style="color: #202020;">from <span style="color: #FC8019;">Lunch box</span></p>
+              <span>Brunch for 2 - Veg</span><br>
+              <span class="grey">₹599</span>
+              <br>
+              <br>
+              <p class="grey">from <span style="color: #FC8019;">Fasso</span></p>
+              <span>Paneer Signature Rice <br> Bowl (Regular)
+              </span><br>
+              <span class="grey">₹299</span>
+            </div>
+            <div class="col-md-3">
+              <p class="fw-bold">2 items</p>
+              <br><br><br>
+              <p style="word-spacing: 10px;">- 1 +</p>
+              <br><br><br>
+              <p style="word-spacing: 10px;">- 1 +</p>
+            </div>
+            <!-- End Of First Block -->
+            <!-- Start Of Second Block -->
+            <div class="row mt-4">
+              <div class="col-md-9">
+                <p class="grey">Bill details</p>
+                <p class="grey">Item Total</p>
+                <p class="grey">Delivery Fee | 12.9 kms <br>
+                  Custom Delivery time</p>
+                <p class="grey">Taxes and Charges</p>
+              </div>
+              <div class="col-md-3 mt-3 d-flex flex-column align-content-end">
+                <p style="margin-top: 25px;" class="grey">₹799</p>
+                <br>
+                <p class="grey">₹131.00</p>
+                <p class="grey">₹2.0</p>
+              </div>
+            </div>
+            <!-- End Of Second Block -->
+            <p style="font-size: 13px; margin: 10px;">Monthly + 3 Days/Week plan + 16:30 Delivery time</p>
+            <!-- Start Of Third Block -->
+            <div class="row mt-4">
+              <div class="col-md-9">
+                <p class="grey">Total</p>
+                <p class="grey">Discount</p>
+              </div>
+              <div class="col-md-3">
+                <p class="grey">₹11,400.00</p>
+                <p class="grey">₹4000.00</p>
+              </div>
+            </div>
+            <!-- End Of Third Block -->
+            <!-- Start Of Fourth Block -->
+            <div class="row">
+              <div class="col-md-9">
+                <p class="fw-bold">Total</p>
+              </div>
+              <div class="col-md-3">
+                <p class="fw-bold">₹7,400.00</p>
+              </div>
+            </div>
+            <!-- End Of Fourth Block -->
+            <a href="#" style="background-color: #FC8019; width: 300px; margin-left: 15px;"
+              class="btn shadow text-white mt-4 mx-auto">Proceed To Payment</a>
+          </div>
+        </div>
+        <!-- End Main Row -->
+      </div>
+  </section>
+  <!-- End Main Section -->
+
+  <!-- Start Footer -->
+  <footer class="bottom">
+    <div class="container text-white text-center pt-3">
+      <div class="row flex-mob justify-content-center">
+        <div class="col-md-4">
+          <span class="logoFooter">FitMe</span>
+        </div>
+        <!-- logo -->
+        <div class="col-md-4">
+          <div class="row justify-content-center">
+            <div class="col-md-12` mx-auto">
+              <ul class="d-flex justify-content-between list-unstyled flex-row">
+                <li><a class="footerNav" href="">About us</a></li>
+                <li><a class="footerNav" href="">Delivery</a></li>
+                <li><a class="footerNav" href="">Help & Support</a></li>
+                <li><a class="footerNav" href="">T&C</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- text -->
+          <div class="row justify-content-center">
+            <div class="col-md-12 mx-auto">
+              <ul class="d-flex justify-content-center list-unstyled">
+                <li>
+                  <a class="footerNav" href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="footerNav" href="#">
+                    <i class="fa-brands fa-instagram mx-3"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="footerNav" href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- logos -->
+        </div>
+        <!-- footerNav -->
+        <div class="col-md-4">
+          <span class="contactFooter"> contact: +214512452 </span>
+        </div>
+        <!-- contact -->
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+</body>
+
+</html>
